@@ -55,11 +55,11 @@
         }
 
         a {
-            color: <?php echo ot_get_option("color-primary"); ?>;
+            color: <?php echo ot_get_option("color-accent"); ?>;
         }
 
         a:hover, a:focus {
-            color: <?php echo ot_get_option("color-primary-dark"); ?>;
+            color: <?php echo ot_get_option("color-accent-dark"); ?>;
         }
 
         .btn {
