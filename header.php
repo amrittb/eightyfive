@@ -71,6 +71,8 @@
             background-color: <?php echo ot_get_option("color-accent-dark"); ?>;
             color: <?php echo ot_get_option("button-text-color"); ?>;
         }
+
+        <?php echo ot_get_option("custom-css"); ?>
     </style>
 </head>
 <body>
